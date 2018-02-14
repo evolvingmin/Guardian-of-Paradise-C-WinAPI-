@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B7457DF0-A12E-400C-951F-26D75C08D353}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>My20150225_winMain</RootNamespace>
+    <ProjectName>Guardian of Paradise</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\SkyDrive\Document Files\Projects\GameProgramming\2D\Guardian of Paradise\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <CallingConvention>Cdecl</CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <AdditionalIncludeDirectories>E:\SkyDrive\Document Files\Projects\GameProgramming\2D\Guardian of Paradise\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <FavorSizeOrSpeed>Neither</FavorSizeOrSpeed>
+      <SmallerTypeCheck>false</SmallerTypeCheck>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <StringPooling>false</StringPooling>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="AbilityObject.h" />
+    <ClInclude Include="action.h" />
+    <ClInclude Include="addtionalMapInfo.h" />
+    <ClInclude Include="animation.h" />
+    <ClInclude Include="button.h" />
+    <ClInclude Include="collision.h" />
+    <ClInclude Include="commonMacroFunction.h" />
+    <ClInclude Include="cutScene.h" />
+    <ClInclude Include="dialogWindow.h" />
+    <ClInclude Include="effect.h" />
+    <ClInclude Include="effectManager.h" />
+    <ClInclude Include="enemy.h" />
+    <ClInclude Include="EnviromentObject.h" />
+    <ClInclude Include="ForestBoss.h" />
+    <ClInclude Include="ForestMiniBoss.h" />
+    <ClInclude Include="gameQuest.h" />
+    <ClInclude Include="gameQuestManager.h" />
+    <ClInclude Include="gameScreenEffect.h" />
+    <ClInclude Include="gameTextBox.h" />
+    <ClInclude Include="gameTextList.h" />
+    <ClInclude Include="grasshopper.h" />
+    <ClInclude Include="menuBar.h" />
+    <ClInclude Include="objectPanel.h" />
+    <ClInclude Include="optionPanel.h" />
+    <ClInclude Include="Flower.h" />
+    <ClInclude Include="fly.h" />
+    <ClInclude Include="gameAttribute.h" />
+    <ClInclude Include="gameButton.h" />
+    <ClInclude Include="gameCamera.h" />
+    <ClInclude Include="gameCharacter.h" />
+    <ClInclude Include="gameFont.h" />
+    <ClInclude Include="gameAnimation.h" />
+    <ClInclude Include="gameNode.h" />
+    <ClInclude Include="gameObject.h" />
+    <ClInclude Include="gameObjectManager.h" />
+    <ClInclude Include="gameStudy.h" />
+    <ClInclude Include="gameTile.h" />
+    <ClInclude Include="gameTileMap.h" />
+    <ClInclude Include="gameTimer.h" />
+    <ClInclude Include="gameUI.h" />
+    <ClInclude Include="image.h" />
+    <ClInclude Include="imageManager.h" />
+    <ClInclude Include="EffectAndItemObject.h" />
+    <ClInclude Include="keyAnimationManager.h" />
+    <ClInclude Include="keyManager.h" />
+    <ClInclude Include="MainGame.h" />
+    <ClInclude Include="MainMenu.h" />
+    <ClInclude Include="pauseMenu.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="progressBar.h" />
+    <ClInclude Include="randomFunction.h" />
+    <ClInclude Include="saveWindow.h" />
+    <ClInclude Include="sceneManager.h" />
+    <ClInclude Include="Seed.h" />
+    <ClInclude Include="Shell.h" />
+    <ClInclude Include="singletonBase.h" />
+    <ClInclude Include="Slime.h" />
+    <ClInclude Include="soundManager.h" />
+    <ClInclude Include="SpatialHasing.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="MapEditer.h" />
+    <ClInclude Include="tentacle.h" />
+    <ClInclude Include="timeManager.h" />
+    <ClInclude Include="timer.h" />
+    <ClInclude Include="Turtle.h" />
+    <ClInclude Include="txtData.h" />
+    <ClInclude Include="utils.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AbilityObject.cpp" />
+    <ClCompile Include="action.cpp" />
+    <ClCompile Include="animation.cpp" />
+    <ClCompile Include="button.cpp" />
+    <ClCompile Include="collision.cpp" />
+    <ClCompile Include="cutScene.cpp" />
+    <ClCompile Include="dialogWindow.cpp" />
+    <ClCompile Include="effect.cpp" />
+    <ClCompile Include="effectManager.cpp" />
+    <ClCompile Include="enemy.cpp" />
+    <ClCompile Include="EnviromentObject.cpp" />
+    <ClCompile Include="ForestBoss.cpp" />
+    <ClCompile Include="ForestMiniBoss.cpp" />
+    <ClCompile Include="gameQuest.cpp" />
+    <ClCompile Include="gameQuestManager.cpp" />
+    <ClCompile Include="gameScreenEffect.cpp" />
+    <ClCompile Include="gameTextBox.cpp" />
+    <ClCompile Include="gameTextList.cpp" />
+    <ClCompile Include="grasshopper.cpp" />
+    <ClCompile Include="menuBar.cpp" />
+    <ClCompile Include="objectPanel.cpp" />
+    <ClCompile Include="optionPanel.cpp" />
+    <ClCompile Include="Flower.cpp" />
+    <ClCompile Include="fly.cpp" />
+    <ClCompile Include="gameAttribute.cpp" />
+    <ClCompile Include="gameButton.cpp" />
+    <ClCompile Include="gameCamera.cpp" />
+    <ClCompile Include="gameCharacter.cpp" />
+    <ClCompile Include="gameFont.cpp" />
+    <ClCompile Include="gameAnimation.cpp" />
+    <ClCompile Include="gameNode.cpp" />
+    <ClCompile Include="gameObject.cpp" />
+    <ClCompile Include="gameObjectManager.cpp" />
+    <ClCompile Include="gameStudy.cpp" />
+    <ClCompile Include="gameTile.cpp" />
+    <ClCompile Include="gameTileMap.cpp" />
+    <ClCompile Include="gameTimer.cpp" />
+    <ClCompile Include="gameUI.cpp" />
+    <ClCompile Include="image.cpp" />
+    <ClCompile Include="imageManager.cpp" />
+    <ClCompile Include="EffectAndItemObject.cpp" />
+    <ClCompile Include="keyAnimationManager.cpp" />
+    <ClCompile Include="keyManager.cpp" />
+    <ClCompile Include="MainGame.cpp" />
+    <ClCompile Include="MainMenu.cpp" />
+    <ClCompile Include="pauseMenu.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="progressBar.cpp" />
+    <ClCompile Include="saveWindow.cpp" />
+    <ClCompile Include="sceneManager.cpp" />
+    <ClCompile Include="Seed.cpp" />
+    <ClCompile Include="Shell.cpp" />
+    <ClCompile Include="Slime.cpp" />
+    <ClCompile Include="soundManager.cpp" />
+    <ClCompile Include="SpatialHasing.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="MapEditer.cpp" />
+    <ClCompile Include="tentacle.cpp" />
+    <ClCompile Include="timeManager.cpp" />
+    <ClCompile Include="timer.cpp" />
+    <ClCompile Include="Turtle.cpp" />
+    <ClCompile Include="txtData.cpp" />
+    <ClCompile Include="utils.cpp" />
+    <ClCompile Include="winMain.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

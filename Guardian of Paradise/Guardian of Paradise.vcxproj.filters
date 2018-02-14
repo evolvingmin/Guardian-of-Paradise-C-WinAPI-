@@ -1,0 +1,519 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="2DGameFramework">
+      <UniqueIdentifier>{7882cb59-6d53-40d2-b5b5-685ee997ad5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\Manager">
+      <UniqueIdentifier>{b170a3a6-a40e-49ac-9b46-0cadeb803d58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy">
+      <UniqueIdentifier>{2d356c6b-4dfb-455d-9801-bc31ea79b7fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\UTIL">
+      <UniqueIdentifier>{8f01e2fa-8bcc-4967-b175-68ecf88c4588}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\image">
+      <UniqueIdentifier>{db5eb6de-e1d3-4d48-9078-7d55408ce515}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\progressBar">
+      <UniqueIdentifier>{f98e4247-ed10-4428-bf67-17cf70b26e9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\txtData">
+      <UniqueIdentifier>{bfbdb614-e735-45d4-a0a8-f635bb8942c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\timer">
+      <UniqueIdentifier>{cf8ac157-624e-4478-9bf7-7fcf5a728e3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\animation">
+      <UniqueIdentifier>{5a4074c9-2f9d-4e1b-8da5-8231b4f558ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\effect">
+      <UniqueIdentifier>{4634d751-0f77-422a-9e76-113f2f27155a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\button">
+      <UniqueIdentifier>{fe8f3c5b-c017-409d-b6c4-bee2f773dff6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\action">
+      <UniqueIdentifier>{73e7514a-a478-4fef-8352-8abbd6381ccc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\gameTile">
+      <UniqueIdentifier>{1c73d115-ad46-4617-8fe5-0f5af6dbc704}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MinFramework">
+      <UniqueIdentifier>{35e0e9a3-c00d-46e6-96d9-39b2ee457cf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MinFramework\gameAttribute">
+      <UniqueIdentifier>{1e7085dd-1378-4fea-90b4-b48c9137215a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MinFramework\SpatialHasing">
+      <UniqueIdentifier>{444ccdbb-92f7-48da-a9a5-2e072a1436e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MinFramework\gameObject">
+      <UniqueIdentifier>{96f7b9ca-dc9a-40f6-8c2e-58f023f4e6f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MinFramework\gameTimer">
+      <UniqueIdentifier>{966f828a-d9b9-4a35-bfc8-0b363a45fa97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MinFramework\gameCamera">
+      <UniqueIdentifier>{126071a5-b631-41f3-8b5b-5eabbae581cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\gameScene">
+      <UniqueIdentifier>{91c8d6ef-9aa3-4a44-a23f-c91ed0d03350}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\gameObjects">
+      <UniqueIdentifier>{9ddecde3-3e9c-438e-8a1b-2f823ddac818}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MinFramework\gameAnimation">
+      <UniqueIdentifier>{4d594784-983c-4ef0-90ae-b7f15be06e7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\gameUI">
+      <UniqueIdentifier>{40ee514b-2bbc-4e67-81cd-0c1c6c71a4a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\gameObjects\Objects">
+      <UniqueIdentifier>{acbcab47-0c4c-4ca0-9281-5a637b814363}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\gameObjects\Objects\gameCharacter">
+      <UniqueIdentifier>{50fbd21f-cfbb-4b7f-b96e-ad55a80b0c7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\gameObjects\Objects\gameCharacter\enemy">
+      <UniqueIdentifier>{6a42dd22-c511-4eae-9431-a28a03fa6928}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\gameScene\MapEditer">
+      <UniqueIdentifier>{bce6538f-0537-49d9-96b8-ddba35fe8dbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\gameScreenEffect">
+      <UniqueIdentifier>{41c96481-0961-4429-b238-940f34a239d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\gameUIComponent">
+      <UniqueIdentifier>{08dbf105-ccde-412e-8870-7434b5c68a02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\gameUIComponent\gameFont">
+      <UniqueIdentifier>{2148b226-0110-4eb7-b5db-93a499deb09f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\gameUIComponent\gameButton">
+      <UniqueIdentifier>{f10b7155-4774-49da-9c37-7846db5b56cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\gameUIComponent\gameTextBox">
+      <UniqueIdentifier>{cecb9bf2-1ab2-4467-a26f-f10f7cf90379}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\gameQuest">
+      <UniqueIdentifier>{e1e4583f-af47-4400-a4b8-53dc4003c266}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameStudy\gameUIComponent\gameTextList">
+      <UniqueIdentifier>{61a6651b-6e22-414e-8ab8-8c80890b0c90}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="commonMacroFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="singletonBase.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="gameNode.h">
+      <Filter>2DGameFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="keyManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="gameStudy.h">
+      <Filter>gameStudy</Filter>
+    </ClInclude>
+    <ClInclude Include="randomFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>2DGameFramework\UTIL</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>2DGameFramework\image</Filter>
+    </ClInclude>
+    <ClInclude Include="imageManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="progressBar.h">
+      <Filter>2DGameFramework\progressBar</Filter>
+    </ClInclude>
+    <ClInclude Include="txtData.h">
+      <Filter>2DGameFramework\txtData</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>2DGameFramework\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="timeManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="animation.h">
+      <Filter>2DGameFramework\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="effect.h">
+      <Filter>2DGameFramework\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="effectManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="collision.h">
+      <Filter>2DGameFramework\UTIL</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="soundManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="button.h">
+      <Filter>2DGameFramework\button</Filter>
+    </ClInclude>
+    <ClInclude Include="action.h">
+      <Filter>2DGameFramework\action</Filter>
+    </ClInclude>
+    <ClInclude Include="keyAnimationManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="gameTile.h">
+      <Filter>gameStudy\gameTile</Filter>
+    </ClInclude>
+    <ClInclude Include="gameTileMap.h">
+      <Filter>gameStudy\gameTile</Filter>
+    </ClInclude>
+    <ClInclude Include="gameAttribute.h">
+      <Filter>MinFramework\gameAttribute</Filter>
+    </ClInclude>
+    <ClInclude Include="SpatialHasing.h">
+      <Filter>MinFramework\SpatialHasing</Filter>
+    </ClInclude>
+    <ClInclude Include="gameObject.h">
+      <Filter>MinFramework\gameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="gameObjectManager.h">
+      <Filter>MinFramework\gameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="gameTimer.h">
+      <Filter>MinFramework\gameTimer</Filter>
+    </ClInclude>
+    <ClInclude Include="gameCamera.h">
+      <Filter>MinFramework\gameCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="gameFont.h">
+      <Filter>gameStudy\gameUIComponent\gameFont</Filter>
+    </ClInclude>
+    <ClInclude Include="gameButton.h">
+      <Filter>gameStudy\gameUIComponent\gameButton</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>gameStudy\gameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>gameStudy\gameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="gameAnimation.h">
+      <Filter>MinFramework\gameAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="AbilityObject.h">
+      <Filter>gameStudy\gameObjects\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>gameStudy\gameObjects\Objects\gameCharacter\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Slime.h">
+      <Filter>gameStudy\gameObjects\Objects\gameCharacter\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="gameUI.h">
+      <Filter>gameStudy\gameUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Flower.h">
+      <Filter>gameStudy\gameObjects\Objects\gameCharacter\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Seed.h">
+      <Filter>gameStudy\gameObjects\Objects\gameCharacter\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>gameStudy\gameObjects\Objects\gameCharacter</Filter>
+    </ClInclude>
+    <ClInclude Include="gameCharacter.h">
+      <Filter>gameStudy\gameObjects\Objects\gameCharacter</Filter>
+    </ClInclude>
+    <ClInclude Include="fly.h">
+      <Filter>gameStudy\gameObjects\Objects\gameCharacter\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Turtle.h">
+      <Filter>gameStudy\gameObjects\Objects\gameCharacter\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="MapEditer.h">
+      <Filter>gameStudy\gameScene\MapEditer</Filter>
+    </ClInclude>
+    <ClInclude Include="optionPanel.h">
+      <Filter>gameStudy\gameScene\MapEditer</Filter>
+    </ClInclude>
+    <ClInclude Include="menuBar.h">
+      <Filter>gameStudy\gameScene\MapEditer</Filter>
+    </ClInclude>
+    <ClInclude Include="gameScreenEffect.h">
+      <Filter>gameStudy\gameScreenEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="gameTextBox.h">
+      <Filter>gameStudy\gameUIComponent\gameTextBox</Filter>
+    </ClInclude>
+    <ClInclude Include="objectPanel.h">
+      <Filter>gameStudy\gameScene\MapEditer</Filter>
+    </ClInclude>
+    <ClInclude Include="addtionalMapInfo.h">
+      <Filter>gameStudy\gameTile</Filter>
+    </ClInclude>
+    <ClInclude Include="gameQuest.h">
+      <Filter>gameStudy\gameQuest</Filter>
+    </ClInclude>
+    <ClInclude Include="gameQuestManager.h">
+      <Filter>gameStudy\gameQuest</Filter>
+    </ClInclude>
+    <ClInclude Include="gameTextList.h">
+      <Filter>gameStudy\gameUIComponent\gameTextList</Filter>
+    </ClInclude>
+    <ClInclude Include="EnviromentObject.h">
+      <Filter>gameStudy\gameObjects\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectAndItemObject.h">
+      <Filter>gameStudy\gameObjects\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="dialogWindow.h">
+      <Filter>gameStudy\gameUI</Filter>
+    </ClInclude>
+    <ClInclude Include="saveWindow.h">
+      <Filter>gameStudy\gameUI</Filter>
+    </ClInclude>
+    <ClInclude Include="pauseMenu.h">
+      <Filter>gameStudy\gameUI</Filter>
+    </ClInclude>
+    <ClInclude Include="grasshopper.h">
+      <Filter>gameStudy\gameObjects\Objects\gameCharacter\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Shell.h">
+      <Filter>gameStudy\gameObjects\Objects\gameCharacter\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="ForestMiniBoss.h">
+      <Filter>gameStudy\gameObjects\Objects\gameCharacter\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="tentacle.h">
+      <Filter>gameStudy\gameObjects\Objects\gameCharacter\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="ForestBoss.h">
+      <Filter>gameStudy\gameObjects\Objects\gameCharacter\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="cutScene.h">
+      <Filter>gameStudy\gameUI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="winMain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="gameNode.cpp">
+      <Filter>2DGameFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="keyManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="gameStudy.cpp">
+      <Filter>gameStudy</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>2DGameFramework\UTIL</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>2DGameFramework\image</Filter>
+    </ClCompile>
+    <ClCompile Include="imageManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="progressBar.cpp">
+      <Filter>2DGameFramework\progressBar</Filter>
+    </ClCompile>
+    <ClCompile Include="txtData.cpp">
+      <Filter>2DGameFramework\txtData</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>2DGameFramework\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="timeManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="animation.cpp">
+      <Filter>2DGameFramework\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="effect.cpp">
+      <Filter>2DGameFramework\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="effectManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="collision.cpp">
+      <Filter>2DGameFramework\UTIL</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="soundManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="button.cpp">
+      <Filter>2DGameFramework\button</Filter>
+    </ClCompile>
+    <ClCompile Include="action.cpp">
+      <Filter>2DGameFramework\action</Filter>
+    </ClCompile>
+    <ClCompile Include="keyAnimationManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="gameTile.cpp">
+      <Filter>gameStudy\gameTile</Filter>
+    </ClCompile>
+    <ClCompile Include="gameTileMap.cpp">
+      <Filter>gameStudy\gameTile</Filter>
+    </ClCompile>
+    <ClCompile Include="gameAttribute.cpp">
+      <Filter>MinFramework\gameAttribute</Filter>
+    </ClCompile>
+    <ClCompile Include="SpatialHasing.cpp">
+      <Filter>MinFramework\SpatialHasing</Filter>
+    </ClCompile>
+    <ClCompile Include="gameObject.cpp">
+      <Filter>MinFramework\gameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="gameObjectManager.cpp">
+      <Filter>MinFramework\gameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="gameTimer.cpp">
+      <Filter>MinFramework\gameTimer</Filter>
+    </ClCompile>
+    <ClCompile Include="gameCamera.cpp">
+      <Filter>MinFramework\gameCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="gameFont.cpp">
+      <Filter>gameStudy\gameUIComponent\gameFont</Filter>
+    </ClCompile>
+    <ClCompile Include="gameButton.cpp">
+      <Filter>gameStudy\gameUIComponent\gameButton</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>gameStudy\gameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="gameAnimation.cpp">
+      <Filter>MinFramework\gameAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="AbilityObject.cpp">
+      <Filter>gameStudy\gameObjects\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>gameStudy\gameObjects\Objects\gameCharacter\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Slime.cpp">
+      <Filter>gameStudy\gameObjects\Objects\gameCharacter\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="gameUI.cpp">
+      <Filter>gameStudy\gameUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Flower.cpp">
+      <Filter>gameStudy\gameObjects\Objects\gameCharacter\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Seed.cpp">
+      <Filter>gameStudy\gameObjects\Objects\gameCharacter\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>gameStudy\gameObjects\Objects\gameCharacter</Filter>
+    </ClCompile>
+    <ClCompile Include="gameCharacter.cpp">
+      <Filter>gameStudy\gameObjects\Objects\gameCharacter</Filter>
+    </ClCompile>
+    <ClCompile Include="fly.cpp">
+      <Filter>gameStudy\gameObjects\Objects\gameCharacter\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Turtle.cpp">
+      <Filter>gameStudy\gameObjects\Objects\gameCharacter\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="MapEditer.cpp">
+      <Filter>gameStudy\gameScene\MapEditer</Filter>
+    </ClCompile>
+    <ClCompile Include="menuBar.cpp">
+      <Filter>gameStudy\gameScene\MapEditer</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>gameStudy\gameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="gameScreenEffect.cpp">
+      <Filter>gameStudy\gameScreenEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="gameTextBox.cpp">
+      <Filter>gameStudy\gameUIComponent\gameTextBox</Filter>
+    </ClCompile>
+    <ClCompile Include="objectPanel.cpp">
+      <Filter>gameStudy\gameScene\MapEditer</Filter>
+    </ClCompile>
+    <ClCompile Include="gameQuest.cpp">
+      <Filter>gameStudy\gameQuest</Filter>
+    </ClCompile>
+    <ClCompile Include="gameQuestManager.cpp">
+      <Filter>gameStudy\gameQuest</Filter>
+    </ClCompile>
+    <ClCompile Include="gameTextList.cpp">
+      <Filter>gameStudy\gameUIComponent\gameTextList</Filter>
+    </ClCompile>
+    <ClCompile Include="EnviromentObject.cpp">
+      <Filter>gameStudy\gameObjects\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectAndItemObject.cpp">
+      <Filter>gameStudy\gameObjects\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="dialogWindow.cpp">
+      <Filter>gameStudy\gameUI</Filter>
+    </ClCompile>
+    <ClCompile Include="optionPanel.cpp">
+      <Filter>gameStudy\gameScene\MapEditer</Filter>
+    </ClCompile>
+    <ClCompile Include="saveWindow.cpp">
+      <Filter>gameStudy\gameUI</Filter>
+    </ClCompile>
+    <ClCompile Include="pauseMenu.cpp">
+      <Filter>gameStudy\gameUI</Filter>
+    </ClCompile>
+    <ClCompile Include="grasshopper.cpp">
+      <Filter>gameStudy\gameObjects\Objects\gameCharacter\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Shell.cpp">
+      <Filter>gameStudy\gameObjects\Objects\gameCharacter\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="ForestMiniBoss.cpp">
+      <Filter>gameStudy\gameObjects\Objects\gameCharacter\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="tentacle.cpp">
+      <Filter>gameStudy\gameObjects\Objects\gameCharacter\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="ForestBoss.cpp">
+      <Filter>gameStudy\gameObjects\Objects\gameCharacter\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="cutScene.cpp">
+      <Filter>gameStudy\gameUI</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
